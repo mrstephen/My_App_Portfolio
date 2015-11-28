@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context=".AppPortfolioActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title_text_size"
+        android:text="@string/main_page_header"
+        android:layout_marginTop="@dimen/header_top_margin"
+        android:layout_marginBottom="@dimen/header_bottom_margin"/>
+
+    <Button
+        android:layout_width="@dimen/app_button_width"
+        android:layout_height="@dimen/app_button_height"
+        android:text="@string/spotify_streamer"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#fff"
+        android:onClick="launchSpotifyStreamer" />
+
+    <Button
+        android:layout_width="@dimen/app_button_width"
+        android:layout_height="@dimen/app_button_height"
+        android:text="@string/scores_app"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#fff"
+        android:onClick="launchScoresApp" />
+
+    <Button
+        android:layout_width="@dimen/app_button_width"
+        android:layout_height="@dimen/app_button_height"
+        android:text="@string/library_app"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#fff"
+        android:onClick="launchLibraryApp" />
+
+    <Button
+        android:layout_width="@dimen/app_button_width"
+        android:layout_height="@dimen/app_button_height"
+        android:text="@string/build_it_bigger"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#fff"
+        android:onClick="launchBuildItBigger" />
+
+    <Button
+        android:layout_width="@dimen/app_button_width"
+        android:layout_height="@dimen/app_button_height"
+        android:text="@string/xyz_reader"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#fff"
+        android:onClick="launchXYZReader" />
+
+    <Button
+        android:layout_width="@dimen/app_button_width"
+        android:layout_height="@dimen/app_button_height"
+        android:text="@string/capstone_app"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:onClick="launchCapstoneApp" />
+
+    <!--android.support.design.widget.FloatingActionButton android:id="@+id/fab"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end" android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email" /-->
+
+</LinearLayout>

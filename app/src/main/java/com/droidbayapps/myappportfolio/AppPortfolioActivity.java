@@ -48,11 +48,11 @@ public class AppPortfolioActivity extends AppCompatActivity {
     }
 
     public void launchScoresApp(View view){
-        Toast.makeText(this, "This button will launch the Scores app", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "This button will launch the Super Duo: Scores app", Toast.LENGTH_LONG).show();
     }
 
     public void launchLibraryApp(View view){
-        Toast.makeText(this, "This button will launch the Library app", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "This button will launch the Super Duo: Library app", Toast.LENGTH_LONG).show();
     }
 
     public void launchBuildItBigger(View view){
